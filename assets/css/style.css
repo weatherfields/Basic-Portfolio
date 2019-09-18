@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+body {
+  max-width: 960px;
+  position: relative;
+  margin: auto;
+}
+/* Header */
+header {
+  background: #fff;
+	height: 139px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #777777;
+	border-bottom: 3px solid #cccccc;
+}
+/* Chris Cuomo Header */
+.header{
+  font-size: 36px;
+  text-align: center;
+  width: 33.33%;
+  border: 15px;
+  padding: 50px;
+  background-color: #4aaaa5;
+  float: left;
+}
+/* Hyper Links */
+.navheader{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  float: right;
+  margin-right: 8px;
+  position: relative;
+  bottom: -50%;
+}
+/* hovers on hyper links */
+a {
+	color: #777777;
+	text-decoration: none;
+}
+a:visited {
+	color: #777777;
+}
+
+a:hover {
+	color: #db9936;
+}
+
+#aboutme {
+  background: #ffffff;
+	height: 450px;
+	padding: 15px;
+	overflow: auto;
+}
+
+/* My Image */
+.ChrisCuomo{
+  float: left;
+	margin: 15px 15px 0px 15px;
+  }
+/* Headers */
+h1 {
+  color: #ffffff;
+  margin-top: 0%;
+}
+h2 {
+  width: 33.33%;
+  font-size: 2em;
+  text-align: center;
+  color: #4aaaa5;
+  position: relative;
+  /*bottom: -13px;*/
+}
+/* Paragraph Specials */
+#firstp {
+  margin-top: 22px;
+}
+/* Colors */
+p {
+    color: #777777;
+}
+/* Fonts */
+  p{
+    font-family: Arial;
+  }
+/* hr specials */
+hr {
+  border-width: 2px;
+  color: #777777;
+}
+/* footer */
+.footer {
+  height: 57px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 4px solid #4aaaa5;
+  background-color: #666666;
+  color: #777777;
+  text-align: center;
+}
