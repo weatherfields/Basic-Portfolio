@@ -48,8 +48,8 @@ a:hover {
 
 #aboutme {
   background: #ffffff;
-	height: 450px;
-	padding: 15px;
+	height: 550px;
+	padding: 50px;
   overflow: auto;
   box-shadow: 0px 0px 9px 3px #777777;
 }
@@ -57,7 +57,7 @@ a:hover {
 /* My Image */
 .ChrisCuomo{
   float: left;
-	margin: 15px 15px 0px 15px;
+	margin: 10px 10px 131px 0px;
   }
 /* Headers */
 h1 {
@@ -67,14 +67,13 @@ h1 {
 h2 {
   width: 33.33%;
   font-size: 2em;
-  text-align: center;
+  text-align: left;
   color: #4aaaa5;
   position: relative;
-  /*bottom: -13px;*/
 }
 /* Paragraph Specials */
 #firstp {
-  margin-top: 22px;
+  margin-top: 15px;
 }
 /* Colors */
 p {
@@ -124,12 +123,17 @@ hr {
     border-radius: 2px;
     font-size: 13px;
 }
+#submit:hover {
+	cursor: pointer;
+  background-color: #db9936;
+}
 /* */
 /* Portfolio Page */
+
 .floatedlist {
-    float: left;
-    width: 33.33%;
-    padding: 6px;
+  float: left;
+  width: 33.33%;
+  padding: 6px;
   }
   
   .column img {
