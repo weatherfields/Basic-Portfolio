@@ -2,9 +2,13 @@
     box-sizing: border-box;
 }
 body {
+  background-image: url(../images/Full-Background.png);
   max-width: 960px;
   position: relative;
   margin: auto;
+}
+p {
+  line-height: 1.25;
 }
 /* Header */
 header {
@@ -32,6 +36,9 @@ header {
   margin-right: 8px;
   position: relative;
   bottom: -50%;
+}
+.opaq {
+  opacity: 0.4;
 }
 /* hovers on hyper links */
 a {
@@ -163,6 +170,9 @@ box-shadow: 0px 0px 9px 3px #777777;
     bottom: 37px;
 }
 /* footer */
+.pfoot {
+  margin-top: 16px;
+}
 .footer {
   height: 57px;
   position: fixed;
